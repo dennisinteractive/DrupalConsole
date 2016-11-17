@@ -2,5 +2,5 @@
 chain:
   name: {}
   disabled:
-    'chain:site:new:example':
+    'site:new:example':
        file: '/path-to-folder/chain-site-new-example.yml'
