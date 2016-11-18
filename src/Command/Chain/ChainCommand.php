@@ -298,9 +298,9 @@ class ChainCommand extends Command
     /**
      * Helper to load the chain file.
      *
-     * @param $file The file name
+     * @param string $file The file name
      *
-     * @return $contents The contents of the file
+     * @return string $contents The contents of the file
      */
     function getFileContents($file) {
         $contents = file_get_contents($file);
